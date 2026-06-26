@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <title>Delhi</title>
+</head>
+
+
+<style>
+  
+  .welcome-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  /* Forces the header to fill the absolute 100% full screen of your monitor */
+  height: 100vh; 
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  
+  /* A royal deep maroon-crimson to dark gradient overlay */
+  background: linear-gradient(135deg, rgba(199, 123, 31, 0.748), rgba(54, 182, 65, 0.666));
+  
+  margin: 0;
+  padding: 20px;
+  
+
+}
+
+.title {
+  color: #FFFFFF !important;
+  font-size: 140px !important; /* Massive, commanding title */
+  font-family: 'Georgia', serif; /* Elegant, royal serif font */
+  letter-spacing: 20px; /* Highly spaced out imperial lettering */
+  margin: 0;
+  text-shadow: 0px 10px 30px rgba(0,0,0,0.8);
+  animation: fadeIn 2s ease-out;
+}
+
+.subtitle {
+  color: hsl(188, 100%, 96%) !important; /* Pure Metallic Gold */
+  font-size: 30px !important;
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  letter-spacing: 10px;
+  margin-top: 25px;
+  text-shadow: 0px 4px 5px rgba(0,0,0,0.9);
+  
+  /* Adds a living regal breathing animation */
+  animation: goldPulse 3s infinite ease-in-out; 
+}
+
+/* New Royal Gold Pulse Animation */
+@keyframes goldPulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.03); opacity: 1; text-shadow: 0px 0px 15px rgba(212,175,55,0.6); }
+  100% { transform: scale(1); opacity: 0.8; }
+}
+/* Paste this right below the closing curly brace of @keyframes goldPulse */
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  50% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+
+
+center {
+  /* 1. Turns the text container into an animatable layout box */
+  display: inline-block;
+  width: 100%; /* Keeps it perfectly centered across the page width */
+  
+  /* 2. FIXED: Changed 'box-shadow' to 'text-shadow' and added 'color' to the tracking list */
+  transition:  text-shadow 0.3s ease, color 0.3s ease; 
+}
+
+center:hover {
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.415); 
+  color: #e85331;
+}
+
+body {
+  background-image: linear-gradient(  /* The first item in the list is placed on top, and the last item goes at the bottom. */
+    rgba(255, 255, 255, 0.6), 
+    rgba(255, 255, 255, 0.6)
+  ), 
+  URL(https://wallpaperaccess.com/full/5770.jpg);
+  
+  background-attachment: fixed; /* Keeps the background static while scrolling */
+  background-size: cover;       /* Stretches the image beautifully to fit the monitor */
+  margin: 0;
+}
+img {
+  float: right;
+  margin-left: 30px;   /* Creates a guaranteed 30-pixel wide invisible wall to its left */
+  margin-right: 0px;   /* Keeps a clean spacing from the screen edges */
+  margin-bottom: 20px; /* Pushes any content below it down slightly */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooths the animation */
+}
+img:hover {
+  transform: scale(1.15); /* Magnifies the image by 5% */
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.3); /* Adds a drop shadow */
+}
+</style>
+
+
+<body>
+
+ <div class="welcome-text" id="heroScreen">
+    <h1 class="title">DELHI</h1>
+    <p class="subtitle">INCREDIBLE INDIA</p>
+ </div>
+
+
+<div style="margin-left: 10%; margin-right: 10%; margin-top: 200px; clear: both; font-size: 30px">
+<h4><br><br><br>QUTQAB MINAR</h4>
+<img src="https://live.staticflickr.com/4112/5409603916_0c14c1567f_b.jpg" alt="" height="250" width="350"  >
+<p style="color:GREEN;font-size: 20px"><br>The Qutb Minar, also spelled as Qutub Minar and Qutab Minar, is a minaret and "victory tower" that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of New Delhi, India.The height of Qutb Minar is 72.5 meters, making it the tallest minaret in the world built of bricks.The tower tapers, and has a 14.3 metres (47 feet) base diameter, reducing to 2.7 metres (9 feet) at the top of the peak.It contains a spiral staircase of 379 stepsIts closest comparator is the 62-metre all-brick Minaret of Jam in Afghanistan, of c.1190, a decade or so before the probable start of the Delhi tower.The surfaces of both are elaborately decorated with inscriptions and geometric patterns; in Delhi the shaft is fluted with "superb stalactite bracketing under the balconies" at the top of each stage.</p>
+</div>
+
+<div style="margin-left: 10%; margin-right: 10%; margin-top: 300px; clear: both; font-size: 30px">
+<h4>BIRLA MANDIR</h4>
+<img src="https://live.staticflickr.com/1641/25626177443_36bef296d5_b.jpg" alt="" height="250" width="350">
+<p style="color:black;font-size: 20px;"><br>The Laxminarayan Temple, also known as the Birla Mandir is a Hindu temple up to large extent dedicated to Laxminarayan in Delhi, India. Laxminarayan usually refers to Vishnu, Preserver in the Trimurti, also known as Narayan, when he is with his consort Lakshmi. The temple, inaugurated by Mahatma Gandhi, was built by Jugal Kishore Birla[1] from 1933 and 1939. The side temples are dedicated to Shiva, Krishna and Buddha.</p>
+</div>
+
+<div style="margin-left: 10%; margin-right: 10%; margin-top: 300px; clear: both; font-size: 30px">
+<h4>INDIA GATE</h4>
+<img src="https://cdn1.goibibo.com/voy_ing/t_fs/new-delhi-india-gate-14762336065o.jpeg" width="350">
+<p style="color:blue;font-size: 20px;"><br>The India Gate (formerly known as the All India War Memorial) is a war memorial located astride the Rajpath, on the eastern edge of the "ceremonial axis" of New Delhi,[1] formal called Kingsway. It stands as a memorial to 70,000 soldiers of the British Indian Army who died in between 1914 and 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the third Anglo-Afghan War.</p>
+</div>
+
+<div style="margin-left: 10%; margin-right: 10%; margin-top: 300px; clear: both; font-size: 30px">
+<h4>RED FORT</h4>
+<img src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwzMzM4ODc5NDQzOC1pbWFnZS1reWJlaWl5cS5qcGc.jpg" alt=""height=250" width="350">
+<p style="color:red;font-size: 20px;">The Red Fort is a historic fort in the city of Delhi (in Old Delhi) in India that served as the main residence of the Mughal Emperors. Emperor Shah Jahan commissioned construction of the Red Fort on 12 May 1638, when he decided to shift his capital from Agra to Delhi. Originally red and white, its design is credited to architect Ustad Ahmad Lahori, who also constructed the Taj Mahal. It was constructed between May 1639 and April 1648. </p>
+</div>
+
+<div style="margin-left: 10%; margin-right: 10%; margin-top: 300px; clear: both; font-size: 30px">
+<h4>LOTUS TEMPLE</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/LotusDelhi.jpg" alt="" width="350">
+<p style="color:#1F618D ;font-size: 20px;">The Lotus Temple, located in Delhi, India, is a Baháʼí House of Worship that was dedicated in December 1986.Notable for its flowerlike shape, it has become a prominent attraction in the city. Like all Baháʼí Houses of Worship, the Lotus Temple is open to all, regardless of religion or any other qualification. The building is composed of 27 free-standing marble-clad "petals" arranged in clusters of three to form nine sides, with nine doors opening onto a central hall with a height of slightly over 34 meters and a capacity of 2,500 people.</P>
+</div>
+
+<div style="margin-left: 10%; margin-right: 10%; margin-top: 300px; margin-bottom: 300px; clear: both; font-size: 30px">
+<h4>JANTAR MANTAR</h4>
+  <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Jantar-Mantar_1400.jpg" height="250" width="400">
+<p style="color:PURPLE;font-size: 20px;">The Jantar Mantar is an equinoctial sundial, consisting of a gigantic triangular gnomon with the hypotenuse parallel to the Earth's axis. On either side of the gnomon is a quadrant of a circle, parallel to the plane of the equator. The instrument is intended to measure the time of day, correct to half a second and declination of the Sun and the other heavenly bodies.</P>
+</div>
+ 
+<center>
+  <p
+   style="font-size:30px;font-family: Monospace;">A project from Souban Chakraborty.
+  </P>
+</center>
+
+
+<script>
+window.addEventListener('scroll', function() {
+  var hero = document.getElementById('heroScreen');
+  var scrollPosition = window.scrollY; // Tracks how far you have scrolled down
+  
+  // The fade completes smoothly after scrolling 500 pixels down
+  var fadeEnd = 500; 
+  var opacityMultiplier = 1 - (scrollPosition / fadeEnd);
+  
+  // Safety check: stops calculating if opacity hits zero
+  if (opacityMultiplier < 0) opacityMultiplier = 0;
+  
+  // Calculate the changing alpha values based on your custom targets (0.748 and 0.666)
+  var dynamicOrangeAlpha = 0.748 * opacityMultiplier;
+  var dynamicGreenAlpha = 0.666 * opacityMultiplier;
+  
+  /* Updates your specific orange and green layout gradient in real-time */
+  hero.style.background = 'linear-gradient(135deg, rgba(199, 123, 31, ' + dynamicOrangeAlpha + '), rgba(54, 182, 65, ' + dynamicGreenAlpha + '))';
+});
+</script>
+
+
+
+</html>
